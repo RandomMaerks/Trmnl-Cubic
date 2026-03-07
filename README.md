@@ -8,11 +8,11 @@
 
 ## Idea
 
-Most monospaced typefaces (if not all) are "metrically rectangular", meaning the bounding box of most glyphs is (vertically) higher than it is (horizontally) wide. When you try to create text-based graphics by translating each pixel from an image into a character, the result will usually be narrower widthwise. Most tools don't translate pixel by pixel, so the art piece still looks correct the majority of the time.
+Most monospaced typefaces (if not all) are "metrically rectangular", meaning the bounding box of glyphs is (vertically) higher than it is (horizontally) wide. When you try to create text-based graphics by translating each pixel from an image into a character, the result will usually be narrower widthwise. Many tools don't translate pixel by pixel, so the art piece still looks correct the majority of the time.
 
 However, when you really need a font that is metrically square (or close to that extent), there is basically no option, because your use case is so niche no one dared to make anything to support that.
 
-That's why I've decided to design Trmnl Cubic, to solve an issue that probably affects 10 people.
+That's why I've decided to design Trmnl Cubic, to solve an issue that probably affects 10 people. Trmnl Cubic, while having a very wide appearance, has a square(ish) bounding box. While it is not perfectly square, it's close enough that a terminal would see that the width and height are the same, and it's not any more practical to have it be truly square.
 
 ![alt text](documentation/double_pendulum_sim.png)
 
