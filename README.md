@@ -4,7 +4,7 @@
 
 **Warning**: This project is in very early development. There are only few glyphs.
 
-![image](documentation/tc-a1.png)
+![banner](documentation/tc-a1.png)
 
 ## Idea
 
@@ -14,7 +14,7 @@ However, when you really need a font that is metrically square (or close to that
 
 That's why I've decided to design Trmnl Cubic, to solve an issue that probably affects 10 people. Trmnl Cubic, while having a very wide appearance, has a square(ish) bounding box. While it is not perfectly square, it's close enough that a terminal would see that the width and height are the same, and it's not any more practical to have it be truly square.
 
-![alt text](documentation/double_pendulum_sim.png)
+![comparison between iosevka term and trmnl cubic in visualising text-based graohics](documentation/double_pendulum_sim.png)
 
 _A double pendulum simulation visualised using only text._  
 _Font: **Iosevka Term SS14 Medium Extended**_
