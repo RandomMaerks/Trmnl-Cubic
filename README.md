@@ -16,9 +16,6 @@ That's why I've decided to design Trmnl Cubic, to solve an issue that probably a
 
 ![comparison between iosevka term and trmnl cubic in visualising text-based graohics](documentation/double_pendulum_sim.png)
 
-_A double pendulum simulation visualised using only text._  
-_Font: **Iosevka Term SS14 Medium Extended**_
-
 ## License
 
 This project is under the [SIL Open Font License 1.1](https://github.com/RandomMaerks/Trmnl-Cubic/blob/main/LICENSE.txt). If necessary, please save or print this document for future references.
