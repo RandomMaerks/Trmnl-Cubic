@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="4.0">
+ <axes>
+  <axis maximum="700" minimum="400" name="weight" default="400" tag="wght">
+   <labelname xml:lang="en">Weight</labelname>
+  </axis>
+ </axes>
+ <sources>
+  <source familyname="Trmnl Cubic" stylename="Bold" name="Bold" filename="masters/TrmnlCubic-Bold.ufo">
+   <location>
+    <dimension xvalue="700" name="weight"/>
+   </location>
+  </source>
+  <source familyname="Trmnl Cubic" stylename="Regular" name="Regular" filename="masters/TrmnlCubic-Regular.ufo">
+   <lib copy="1"/>
+   <groups copy="1"/>
+   <info copy="1"/>
+   <features copy="1"/>
+   <location>
+    <dimension xvalue="400" name="weight"/>
+   </location>
+  </source>
+ </sources>
+ <instances>
+  <instance familyname="Trmnl Cubic" stylename="Regular" name="Regular" filename="instances/TrmnlCubic-Regular.ufo">
+   <location>
+    <dimension xvalue="400" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Trmnl Cubic" stylename="Medium" name="Medium" filename="instances/TrmnlCubic-Medium.ufo">
+   <location>
+    <dimension xvalue="500" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Trmnl Cubic" stylename="SemiBold" name="SemiBold" filename="instances/TrmnlCubic-SemiBold.ufo">
+   <location>
+    <dimension xvalue="600" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Trmnl Cubic" stylename="Bold" name="Bold" filename="instances/TrmnlCubic-Bold.ufo">
+   <location>
+    <dimension xvalue="700" name="weight"/>
+   </location>
+  </instance>
+ </instances>
+</designspace>
