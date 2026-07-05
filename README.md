@@ -8,7 +8,7 @@
 
 ## Idea
 
-Most monospaced typefaces (if not all) are "metrically rectangular", meaning the bounding box of glyphs is (vertically) higher than it is (horizontally) wide. When you try to create text-based graphics by translating each pixel from an image into a character, the result will usually be narrower widthwise. Many tools don't translate pixel by pixel, so the art piece still looks correct the majority of the time.
+Most monospaced typefaces (if not all) are "metrically rectangular", specifically the bounding box of glyphs is (vertically) higher than it is (horizontally) wide. It makes sense because those typefaces were designed for blocks of text and code. But, when you try to create text-based graphics (for example, *ASCII art*) by translating each pixel from an image into a character, the result will usually be narrower widthwise. Many tools don't translate pixel by pixel, so the art piece still looks correct the majority of the time.
 
 However, when you really need a font that is metrically square (or close to that extent), there is basically no option, because your use case is so niche no one dared to make anything to support that.
 
